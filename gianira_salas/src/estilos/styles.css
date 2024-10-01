@@ -317,3 +317,27 @@ nav ul li:hover ul {
         justify-content: center;
     }
 }
+.maingusmusicales{
+    img{
+        width: 200px;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .gusmusparte1{
+        background-color: green;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gusmusparte2{
+        background-color: pink;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
