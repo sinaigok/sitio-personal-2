@@ -291,3 +291,29 @@ nav ul li:hover ul {
         justify-content: center;
     }
 }
+
+.mainmascotas{
+    img{
+        width: 200px;
+    }
+    .masparte1{
+        background-color: pink;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .masparte2{
+        background-color: green;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .masparte3{
+        background-color: orange;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
