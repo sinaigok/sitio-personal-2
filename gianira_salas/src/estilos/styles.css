@@ -50,6 +50,17 @@ nav ul li a:hover {
     background-color: #575757;
 }
 
+/* Estilos especiales para el enlace de Home */
+nav ul li.home a {
+    font-weight: bold; /* Hace que el enlace de Home destaque */
+    color: #FFD700; /* Cambia el color a dorado */
+    font-size: 18px; /* Aumenta ligeramente el tamaño de la fuente */
+}
+
+nav ul li.home a:hover {
+    background-color: #FFA500; /* Un color diferente al hover de los demás */
+}
+
 /* Estilos para los submenús */
 nav ul li ul {
     display: none;
@@ -82,25 +93,6 @@ nav ul li ul li a:hover {
 /* Mostrar submenú al hacer hover sobre el elemento principal */
 nav ul li:hover ul {
     display: block;
-}
-
-/* Para dispositivos móviles, podrías agregar estilos responsivos */
-@media (max-width: 768px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        background-color: #333;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        text-align: center;
-    }
-    
-    nav ul li ul {
-        position: static;
-    }
 }
 
 .contenedor{
@@ -218,6 +210,9 @@ nav ul li:hover ul {
             text-align: center;
             align-items: center;
             justify-content: center;
+            .famimg{
+                text-align: center;
+            }
         }
     }
     .famparte2{
@@ -238,6 +233,9 @@ nav ul li:hover ul {
             text-align: center;
             align-items: center;
             justify-content: center;
+            .famimg{
+                text-align: center;
+            }
         }
         .fampartestotales{
             display: grid;
@@ -336,6 +334,82 @@ nav ul li:hover ul {
         background-color: pink;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.maingusculturales{
+    img{
+        width: 200px;
+    }
+    div{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gusculparte1{
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        .p1_1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    }
+    .gusculparte2{
+        background-color: orange;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .gusculparte3{
+        background-color: green;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gusculparte4{
+        background-color: pink;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+        justify-content: center;
+        .p4_img{
+            text-align: right;
+        }
+    }
+}
+.mainhobbies{
+    img{
+        width: 200px;
+    }
+    .hobparte1{
+        background-color: aquamarine;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .hobparte2{
+        background-color: pink;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .hobparte3{
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         text-align: center;
         align-items: center;
         justify-content: center;
