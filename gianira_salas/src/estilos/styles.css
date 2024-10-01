@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center; */
+    img{
+        background-color: aqua;
+        width: 200px;
+
+    }
+    h1,h2{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .primeraparte{
+        background-color: yellow;
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 2fr;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        article{
+            text-align: center;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    }
+    .segundaparte{
+        background-color: orange;
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr, 2fr;
+        align-items: center;
+        text-align: center;
+        /* h1{
+            align-items: center;
+            text-align: center;
+        }
+        article{
+            display: grid;
+            div{
+                display: inline-block;
+                background-color: blue;
+            }
+        } */
+    }
+    .terceraparte{
+        background-color: green;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr, 2fr;
+        align-items: center;
+        text-align: center;
+        #t1{
+            display: grid;
+            img{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+        }
+    }
+    .cuartaparte{
+        background-color: purple;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* grid-template-rows: 1fr; */
+        align-items: center;
+        /*text-align: center; */
+        .c1{
+            display: grid;
+            justify-content: right;
+        }
+    }
+    footer{
+        background-color: lightseagreen;
+        /* display: grid; */
+        /* grid-template-columns: repeat(3,1fr); */
+        grid-template-rows: 1fr 2fr;
+        align-items: center;
+        text-align: center;
+        ul li{
+            display: inline;
+        }
+    }
+}
